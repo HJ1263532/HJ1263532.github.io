@@ -8,37 +8,43 @@ body {
     background-color: rgb(250, 241, 211);
 }
 
+/* 내비게이션 컨테이너 스타일 */
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* 내비게이션 메뉴 스타일 */
 .nav-menu {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
+/* 내비게이션 항목 스타일 */
 .nav-item a {
     color: black;
     text-decoration: none;
     padding: 10px 15px;
 }
 
+/* 드롭다운 메뉴 스타일 */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+/* 드롭다운 버튼 스타일 */
 .dropbtn {
     background: none;
     border: none;
-    color: white;
+    color: black;
     cursor: pointer;
     padding: 10px;
 }
 
+/* 드롭다운 콘텐츠 스타일 */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -49,6 +55,7 @@ body {
     padding: 10px 0; /* Adds padding around the content */
 }
 
+/* 드롭다운 링크 스타일 */
 .dropdown-content a {
     color: black;
     padding: 10px;
@@ -56,27 +63,30 @@ body {
     text-decoration: none;
 }
 
+/* 드롭다운 링크 호버 효과 */
 .dropdown-content a:hover {
-    background-color: #f1f1f1; /* Adds hover effect for links in the dropdown */
+    background-color: darkgray; 
 }
 
+/* 드롭다운 메뉴 표시 */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Ensure dropdown content goes outside the nav bar if needed */
+/* 드롭다운 콘텐츠가 내비게이션 바 밖으로 나가도록 설정 */
 .dropdown-content {
     left: 0;
     right: auto;
 }
 
-/* Additional styling for navbar on hover */
+/* 내비게이션 항목 호버 효과 */
 .nav-item a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Add hover effect on regular nav items */
+    background-color: rgba(0, 0, 0, 0.1); 
     border-radius: 5px;
 }
 
+/* 내비게이션 링크 스타일 */
 .nav-container a {
-    color: white; /* Assuming you want the text to be white */
+    color: black; 
     font-size: 18px;
 }
