@@ -5,8 +5,8 @@ url:            https://github.com/inelaah/rain
 
 # Author
 author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
+  name:         HeeJin Choie
+  email:        osisland2918@gmail.com
   url:          https://inelaah.com
 
 # Build settings
@@ -25,7 +25,8 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       10
+paginate_path: "/page:num/" # 페이지 URL 패턴
 
 # Related posts settings
 related_posts_section:
@@ -34,7 +35,7 @@ related_posts_section:
 
 # Links to social media
 social:
-  email: inelaah@gmail.com
-  github: https://github.com/inelaah
-  twitter: https://twitter.com
+  email: osisland2918@gmail.com
+  github: https://github.com/HJ1263532
+  twitter: 
   linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
