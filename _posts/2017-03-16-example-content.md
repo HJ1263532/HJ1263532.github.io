@@ -5,7 +5,14 @@ author: "Inela"
 tags: ["jekyll", "docs", "example", "content"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
+# 박스처리하는 방법
+{% highlight markdoqn %}
+시작 부호: {% highlight markdown %}
+
+내용을 모두 적기
+
+끝냄 부호: {% endhighlight %}
+{% endhighlight %}
 
 # Headers
 {% highlight markdown %}
@@ -37,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 {% endhighlight %}
 
 - **Bold**
-- _Italics_
+- _Italics_ :이텔릭체 사용하려면 _언더바로 양 옆 묶기_ 로 사용
 - ~~Strikethrough~~
 - <ins>Underline</ins>
 - <sup>Superscript</sup>
@@ -87,7 +94,7 @@ _This is an image with a caption_
 # Code and Syntax Highlighting
 Use back-ticks for `inline code`. Multi-line code snippets are supported too through Pygments.
 
-{% highlight js %}
+{% highlight js %} 
 // Sample javascript code
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -107,7 +114,7 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 {% endhighlight %}
 
-# Blockquotes
+# 인용부호호
 {% highlight markdown %}
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
@@ -115,13 +122,13 @@ alert(s);
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-# Horizontal Rule & Line Break
+# 수평선 및 줄바꿈
 {% highlight markdown %}
-Use `<hr>` for horizontal rules
+Use `<hr>` for 수평선선
 
 <hr>
 
-and `<br>` for line breaks.
+and `<br>` for 줄바꿈꿈
 
 <br>
 {% endhighlight %}
