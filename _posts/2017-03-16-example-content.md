@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Example Content"
+title: "사용법이 적힌 부분"
 author: "Inela"
 tags: ["jekyll", "docs", "example", "content"]
 ---
 
 # 박스처리하는 방법
-{% highlight markdoqn %}
+{% highlight markdown %}
 시작 부호: {% highlight markdown %}
 
 내용을 모두 적기
