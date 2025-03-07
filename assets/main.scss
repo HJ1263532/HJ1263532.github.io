@@ -2,6 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+---
+# 오직 메인 Sass 파일만 front matter가 필요합니다 (대시는 충분합니다)
+---
+
 @import 'rain';
 
 body {
@@ -20,6 +24,7 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 /* 내비게이션 항목 스타일 */
@@ -51,21 +56,24 @@ body {
     background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1; /* Ensure the dropdown is above other content */
-    padding: 10px 0; /* Adds padding around the content */
+    z-index: 1; /* 다른 콘텐츠보다 위에 배치 */
+    padding: 10px 0; /* 콘텐츠 주위에 여백 추가 */
+    text-align: center; /* 중앙 정렬 */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* 드롭다운 링크 스타일 */
 .dropdown-content a {
     color: black;
-    padding: 10px;
+    padding: 10px 20px;
     display: block;
     text-decoration: none;
 }
 
 /* 드롭다운 링크 호버 효과 */
 .dropdown-content a:hover {
-    background-color: darkgray; 
+    background-color: darkgray;
 }
 
 /* 드롭다운 메뉴 표시 */
@@ -73,20 +81,14 @@ body {
     display: block;
 }
 
-/* 드롭다운 콘텐츠가 내비게이션 바 밖으로 나가도록 설정 */
-.dropdown-content {
-    left: 0;
-    right: auto;
-}
-
 /* 내비게이션 항목 호버 효과 */
 .nav-item a:hover {
-    background-color: rgba(0, 0, 0, 0.1); 
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 /* 내비게이션 링크 스타일 */
 .nav-container a {
-    color: black; 
+    color: black;
     font-size: 18px;
 }
