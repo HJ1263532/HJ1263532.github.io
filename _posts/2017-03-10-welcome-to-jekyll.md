@@ -27,13 +27,13 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Jekyll은 또한 다음과 같은 코드 조각에 대한 강력한 지원을 제공합니다.
 
-{% 하이라이트 루비 %}
+{% highlight ruby %}
 def print_hi(이름)
   "안녕하세요, #{name}"을 입력합니다.
 끝
 print_hi('톰')
 #=> 'Hi, Tom'을 STDOUT으로 인쇄합니다.
-{% 끝 강조 표시 %}
+{% endhighlight %}
 
 Jekyll을 최대한 활용하는 방법에 대한 자세한 내용은 [Jekyll 문서][jekyll-docs]를 확인하세요. 모든 버그/기능 요청은 [Jekyll의 GitHub 저장소][jekyll-gh]에 제출하세요. 궁금한 사항은 [지킬톡][jekyll-talk]을 통해 질문하실 수 있습니다.
 
