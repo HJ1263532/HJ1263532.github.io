@@ -1,0 +1,16 @@
+- title: Home
+  url: "/"
+
+- title: Categories
+  submenu:
+    - title: Technology
+      url: "/category/technology/"
+    - title: Science
+      url: "/category/science/"
+    - title: Programming
+      url: "/category/programming/"
+
+- title: About
+  url: /about/
+- title: Contact
+  url: /contact/
