@@ -9,6 +9,24 @@
         <a href="{{ site.baseurl }}/">
           <h2 class="nav-title">{{ site.title }}</h2>
         </a>
+        <ul class="nav-menu">
+          {% for item in site.data.navigation %}
+            <li class="nav-item">
+              {% if item.submenu %}
+                <div class="dropdown">
+                  <button class="dropbtn">{{ item.title }}</button>
+                  <div class="dropdown-content">
+                    {% for sub in item.submenu %}
+                      <a href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% else %}
+                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
         <ul class="nav-social-icons">
           {% if site.social.email %}
             <li><a target="_blank" href="mailto:{{ site.social.email }}"><i class="fas fa-envelope"></i></a></li>
