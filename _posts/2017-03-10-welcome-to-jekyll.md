@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "글 작성 방법"
 author: "Jekyll"
 tags: ["jekyll", "configuration", "docs", "example"]
 ---

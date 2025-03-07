@@ -1,18 +1,9 @@
 ---
 layout: post
-title: "사용법이 적힌 부분"
+title: "사용법이 적힌"
 author: "Inela"
 tags: ["jekyll", "docs", "example", "content"]
 ---
-
-# 박스처리하는 방법
-{% highlight markdown %}
-시작 부호: {% highlight markdown %}
-
-내용을 모두 적기
-
-끝냄 부호: {% endhighlight %}
-{% endhighlight %}
 
 # Headers
 {% highlight markdown %}
