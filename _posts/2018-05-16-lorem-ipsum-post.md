@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "시험적인 텍스트"
+title: "test 확인"
 author: "HeeJin Choi"
 permalink: /category/technology/
 ---
